@@ -29,7 +29,7 @@
         <!---------Header-------->
         <div class="home-page">
         <div class="formhome">
-        <h1><b>Welcome <?php echo $_SESSION['name']?></b></h1><br><br>
+        <h1><b>Welcome <?php echo $_SESSION['name']." (".$_SESSION['id'].")"?></b></h1><br><br>
         <h5><li><b>Email: </b><?php echo $_SESSION['email']?></li></h5><br>
         <a class="btn btn-danger" href="logout.php">Logout</a><br><br><br>
 
